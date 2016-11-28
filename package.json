@@ -1,23 +1,14 @@
 {
-  "name": "eieio",
-  "version": "1.0.0",
-  "description": "aws hack challenge",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [
-    "heroku",
-    "nodejs",
-    "socket.io",
-    "aws"
-  ],
-  "author": "Jim & Martin",
-  "license": "ISC",
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {
     "express": "^4.14.0",
+    "jquery": "^3.1.1",
     "socket.io": "^1.6.0"
+  },
+  "scripts": {
+    "start": "node app.js"
   },
   "engines": {
     "node": "7.2.0"
