@@ -5,7 +5,9 @@ FTW
 # Guide to Project Setup
 1. Create new Node project (package.json)
 2. Download node dependencies (socket.io, express)
-3. Create app.js-file that runs socket.io on express http server
+3. Create app.js-file that runs socket.io on express http server and serves a index.html file
+4. In app.js, set up socket.io with handlers for connection, sending and receiving messages
+5.
 
 
 # Socket.IO
@@ -53,9 +55,13 @@ socket.join('players');
 socket.leave('players');
 ```
 
-# References
+### References
 
-Socket.io - Binding the front and back-end together with Node.js and Canvas: 
+#### Socket.io - Binding the front and back-end together with Node.js and Canvas: 
 ```
 https://www.youtube.com/watch?v=qmvxytWVBJ4
+```
+#### Canvas Platformer Game
+```
+http://www.somethinghitme.com/2013/01/09/creating-a-canvas-platformer-tutorial-part-one/
 ```
