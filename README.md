@@ -2,6 +2,12 @@
 aws hack
 FTW
 
+# Guide to Project Setup
+1. Create new Node project (package.json)
+2. Download node dependencies (socket.io, express)
+3. Create app.js-file that runs socket.io on express http server
+
+
 # Socket.IO
 
 ## Built-in Events
@@ -32,7 +38,20 @@ io.sockets.emit('message', data);
 ```javascript 
 io.sockets.in('room').emit('message', data);
 ```
+4. Volatile Messages (if not important, less overhead)
+```javascript 
+io.sockets('observers').volatile.emit('message', data);
+```
 
+## Rooms (organize sockets into rooms)
+1. Join
+```javascript
+socket.join('players');
+```
+1. Leave
+```javascript
+socket.leave('players');
+```
 
 # References
 
