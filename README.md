@@ -7,7 +7,9 @@ FTW
 ## Built-in Events
 
 1. Connection:
+```javascript
 io.sockets.on('connection', function (socket...
+```
 2. Message: 
 socket.on('message', function (data) { ...
 3. Disconnect: 
