@@ -7,8 +7,13 @@ FTW
 2. Download node dependencies (socket.io, express)
 3. Create app.js-file that runs socket.io on express http server and serves a index.html file
 4. In app.js, set up socket.io with handlers for connection, sending and receiving messages
-5.
 
+## Network Communication
+File Communication (Express)
+- CLient asks server for a file (eg. playerImg.png)
+Package communication (Socket.io)
+- Client sends data to server (eg. input)
+- Server sends data to client (eg. monster position)
 
 # Socket.IO
 
