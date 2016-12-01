@@ -11,6 +11,9 @@ FTW
 ## Network Communication
 File Communication (Express)
 - CLient asks server for a file (eg. playerImg.png)
+DOMAIN | PORT | PATH
+mywebsite.com | :2000 | /client/playerImg.png
+
 Package communication (Socket.io)
 - Client sends data to server (eg. input)
 - Server sends data to client (eg. monster position)
@@ -70,3 +73,5 @@ https://www.youtube.com/watch?v=qmvxytWVBJ4
 ```
 http://www.somethinghitme.com/2013/01/09/creating-a-canvas-platformer-tutorial-part-one/
 ```
+
+http://rainingchain.com/tutorial/nodejs
