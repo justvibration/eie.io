@@ -8,6 +8,11 @@ FTW
 3. Create app.js-file that runs socket.io on express http server and serves a index.html file
 4. In app.js, set up socket.io with handlers for connection, sending and receiving messages
 
+## Potential Challenges
+### Latency
+CHeck this out:
+https://www.youtube.com/watch?v=z1_QpUkX2Gg
+
 ## Network Communication
 File Communication (Express)
 - CLient asks server for a file (eg. playerImg.png)
