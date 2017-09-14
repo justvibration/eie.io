@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Scania Eco Racer</title>
+    <meta name="author" content="Scania IT">
+    <meta name="description" content="A Scania eco racing game">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <figure id="nespad">
+        <div class="cord"></div>
+        <section class="dpad-pane">
+            <div class="dpad-hole"></div>
+            <div id="dpad">
+                <canvas height="150" id="dpad-body" width="150"></canvas>
+                <button class="button" id="up" onmousedown="mouseDown(38)" onmouseup="mouseUp(38)"></button>
+                <button class="button" id="right" onmousedown="mouseDown(39)" onmouseup="mouseUp(39)"></button>
+                <button class="button" id="down" onmousedown="mouseDown(40)" onmouseup="mouseUp(40)"></button>
+                <button class="button" id="left" onmousedown="mouseDown(37)" onmouseup="mouseUp(37)"></button>
+            </div>
+        </section>
+        <section class="menu-pane">
+            <div class="labels">
+                <label class="select" for="select">Select</label><label class="start" for="start">Start</label>
+            </div>
+            <div class="buttons">
+                <button class="button select" id="select">Select</button><button class="button start" id="start">Start</button>
+            </div>
+        </section>
+        <section class="action-pane">
+            <div class="logo">
+                Scania
+            </div>
+            <div class="buttons">
+                <label class="label">B<button class="button" id="b"></button></label><label class="label">A<button class="button" id="a"></button></label>
+            </div>
+        </section>
+    </figure>
+
+    <!-- js -->
+    <script src="libraries/socket.io-1.4.5.js"></script>
+    <script src="js/client.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
